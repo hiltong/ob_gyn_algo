@@ -15,7 +15,40 @@
 <link rel="stylesheet" href="css/hg.css">
 
 <body onload="SetUpPage()">
-    <h1>OB_GYN_Algorithms</h1>
+  
+    <header id="MyHeader" class="hg-NavBar">
+        <button id="bkbtn" class="hg-BackButton" onclick="goBack()" style="display: none"></button>
+        <button id="hmbrgbtn" class="hg-HamBtn" onclick="SideBarOpen()"></button>
+        <h1 id="titbar" class="hg-NavBarTitle">OB_GYN_Algorithms<span class="hg-NavBarTitleSpan"> (explained &
+                referenced)</span></h1>
+    </header>
+    <nav class="hg-SideBar" id="mySidebar"></nav>
+    <div class="hg-OverLay  " onclick="SideBarClose()" title="close side menu" id="myOverlay"></div>  
+
+    <div class="hg-Content">
+
+        <main class="hg-InfoContent">
+            <h2 class="hg-h2PageTitle">About</h2>
+            <section>
+                <h3 class="hg-h3PageSubtitle">About this site</h3>
+                <p>Genital herpes is a common infection. Though in most cases it is harmless it can cause significant physical discomfort and emotional distress. In the authors experience many patients struggle to understand what genital herpes is, its implications on their health, how it is diagnosed and options for treatment. The objective of this site is to have this <span style="color: var(--ref-color); font-style: italic;">explained</span> in not just more detail than the usual patient information handout but understandable detail. </p>
+                <p>We also all know online information can be mixed in its accuracy. Government and institutional sites such as the <span style="font-style: italic">Centers for Disease Control and Prevention</span> and <span style="font-style: italic">Johns Hopkins</span> are dependable sources of accurate information while blogs and sites filled with personal opinions are not always accurate. Information presented in this site will be <span style="color: var(--ref-color); font-style: italic;">referenced</span> so the reader can check its validity. On the occasion the author injects information it will be referenced with an <sup>a</sup>.</p>
+                <p>Finally, as this site is composed by an obstetricain and gynecologist it will usually take the perspective of the patient being a female but, in most cases, it really would apply the same if the patient was a male.</p>
+            </section>
+            <section>
+                <h3 class="hg-h3PageSubtitle">About the author</h3>
+            </section>
+        </main>
+
+        <div class="hg-AddContent">
+            <p class="hg-AddSmall ">AD</p>
+            <p class="hg-AddLarge  ">AD</p>
+        </div>
+
+    </div>
+
+    <script defer src="script.js"></script>
+    <script defer src="script-aux.js"></script>
 </body>
 
 </html>
