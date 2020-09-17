@@ -312,6 +312,154 @@ background-color: black;
 
 
   
+/*Algorithm------------------------------------------------------------------------------------------------------*/
+  /*Main div*/
+  .hg-algoDivMain{
+    /* margin-top: -16px; */
+    margin-bottom: 16px;
+    /* padding-top: 24px; */
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    display: none;
+    /* background: lightblue */
+    /* background: lightcyan; */
+    /* border-radius: 24px; */
+    /* border: 1px solid #ccc; */
+    /* position: relative; */
+}
+/*Straight border div*/
+.hg-algoDivStrBorder{
+margin-top: 0px;
+margin-bottom: 16px;
+margin-left: auto ;
+margin-right: auto ;
+padding-left: 16px;
+padding-right: 16px;
+border: 1px solid black; 
+background: lightpink;
+}
+
+/*Rounded border div*/
+.hg-algoDivRdBorder{
+margin-top: 0px;
+margin-bottom: 16px;
+margin-left: auto ;
+margin-right: auto ;
+padding-left: 16px;
+padding-right: 16px;
+border: 1px solid black;
+background: lightcyan;
+border-radius: 8px;
+}
+
+/*No border div*/
+.hg-algoDivNoBorder{
+  margin-top: 0px;
+  margin-bottom: 24px;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align:center;
+}
+
+.hg_algoCenterHorizDiv{
+display: flex;              /* establish flex container */
+flex-direction: column;     /* stack flex items vertically */
+/* justify-content: center;    center items vertically, in this case */
+align-items: center;        /* center items horizontally, in this case */
+/* background-color: pink; */
+}
+
+/*h3*/
+.hg-algoh3{
+text-align:center;
+/* margin: 6px; */
+font-size: 1.10em;
+font-weight: bold;
+}
+.hg-algoh3 sup{
+font-weight: normal;
+
+}
+
+/*Algo status*/
+.hg-pAlgoStatus{
+/* margin:0px 0px 12px 0px; */
+/* background: red; */
+color:red;
+}
+
+/*Up button*/
+.hg-algoBtnUp{
+  padding:8px 16px;
+  width: 50px;
+  background: lightgoldenrodyellow;
+  margin-bottom: 16px;
+  margin-left: auto ;
+  margin-right: auto ;
+  font-size: 1.2em;
+  border:none;
+  cursor:pointer;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*Down Arrow p*/
+.hg-algoParaDn{
+  color: black;
+  font-size: 1.2em;
+}
+.hg-algoBtnA{
+/* border: 1px solid #ccc; */
+padding:8px 16px;
+font-size: 1.1em;
+margin-bottom: 16px;
+display:block;
+width:100%;
+text-align:center;
+margin-left: auto ;
+margin-right: auto ;
+white-space: normal;  /*lets words wrap in accordian button*/
+background: lightgoldenrodyellow;
+color:black;
+border:none;
+border-radius: 8px;
+cursor:pointer;
+box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*UL*/
+.hg-algoUl{
+margin-top: 0px;
+margin-left: 12px;
+margin-right: 4px;
+padding: 0px;
+/* background: orange; */
+}
+.hg-algoUl li ul{
+margin-left: 0px; 
+padding-left: 16px; 
+/* background: plum; */
+}
+
+  
+ 
+
+/*Refresh button*/
+  .hg-algoRfBtn{
+    /* border: 1px solid #ccc; */
+    /* border-radius:50%; */
+    /* background: lightgoldenrodyellow; */
+    /* background: lightpink; */
+    /* background:#f0f0f0; */
+    font-size: 0.8em;
+    color: red;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+  }
+
+
 
 
 
