@@ -457,7 +457,8 @@ padding-left: 16px;
     /* background: lightpink; */
     /* background:#f0f0f0; */
     font-size: 0.8em;
-    color: red;
+    width: 100px;
+    color: black;
     margin-left: 16px;
     margin-bottom: 16px;
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
