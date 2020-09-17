@@ -18,7 +18,10 @@ body{word-wrap: break-word; margin-bottom: 200px;}
 
 /*Nav Bar*/
 .hg-NavBar{background: white; position:fixed; width:100%; z-index:1;min-height: 42px;}
-.hg-NavBarTitle{float:left; font-size:  20px; color:teal ; background-color:white; margin-top: 6px; margin-bottom: 0px; margin-left: 12px;}
+/* .hg-NavBarTitle{float:left; font-size:  20px; color:teal ; background-color:white; margin-top: 6px; margin-bottom: 0px; margin-left: 12px;} */
+.hg-NavBarTitle{margin-left:270px; font-size:  20px; color:teal ; background-color:white; margin-top: 6px; margin-bottom: 0px; transition:margin-left .4s;}
+
+
 /* .hg-NavBarTitleSpan{color:white; background-color:black; color: orange;font-size:  12px; font-style: italic;} */
 .hg-HamBtn{background: white; color: black; font-size:18px; float:right; padding:8px 16px; text-decoration:none; border: none;}
 .hg-HamBtn:active{background: white;color: black;}
@@ -43,7 +46,8 @@ body{word-wrap: break-word; margin-bottom: 200px;}
 .hg-AddSmall{border:1px solid #ccc!important; padding:32px 24px!important; text-align:center!important;}
 .hg-AddLarge{border:1px solid #ccc!important; padding:64px 24px!important;text-align:center!important}
 
-/* PageTitle */
+/* PageTitles */
+.hg-h1PageTitle{font-size: 1.5em; margin-bottom: 0.2em; color: teal; /* background-color: #00ffff; */}
 .hg-h2PageTitle{font-size: 1.5em; margin-bottom: 0.2em; color: teal; /* background-color: #00ffff; */}
 .hg-h3PageSubtitle{font-size: 1.17em; margin-top: 0.10em; color:#009688; /* color: #009688; */ /* background-color: #ddffdd; */
 }

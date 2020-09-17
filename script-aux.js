@@ -148,7 +148,7 @@ function CreateSideBar() {
 }
 
 /*Algorhithm-------------------------------------------------------------------------------*/
-/* function AlgoNext(idhide, idshow) {
+function AlgoNext(idhide, idshow) {
   //  alert('Here');
   //  alert(idhide);
   document.getElementById(idhide).style.display = "none";
@@ -156,7 +156,7 @@ function CreateSideBar() {
   document.getElementById(idshow).style.display = "block";
   sessionStorage.setItem(idshow, 'block')
   // alert('Here');
-} */
+}
 
 // function AlgoNext(idhide, idshow, algobackstep) {
 //   // alert('Here');
